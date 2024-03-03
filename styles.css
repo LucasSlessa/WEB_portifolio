@@ -390,6 +390,14 @@ form .btn2{
   
     animation: pulse 0.5s infinite;
 }
+
+#msg{
+    color: #61b752;
+    margin-top: -40px;
+    display: block;
+}
+
+
 /* ------------------------css for small screen-------------------- */
 
 nav .fa-solid{
