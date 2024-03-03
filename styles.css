@@ -134,6 +134,12 @@ nav ul li a:hover::after{
     width: 100%;
     border-radius: 15px;
 }
+.about-col-1 img:hover{
+    
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+
 .about-col-2{
     flex-basis: 60%;
 
