@@ -9,7 +9,7 @@ html{
     scroll-behavior: smooth;
 }
 body{
-    background:#080808 ;
+    background:#0d0a0e;
     color: #fff;
 }
 
@@ -32,6 +32,7 @@ body{
         transform: translateX(0);
     }
 }
+
 
 
 
