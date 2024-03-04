@@ -75,7 +75,7 @@ nav{
 
 
 .logo:hover{
-    color: #ff004f;
+ 
   
     animation: growShrink 1.5s infinite;
 }
@@ -483,6 +483,18 @@ nav .fa-solid{
     nav ul li{
         display: block;
         margin: 25px;
+
+    }
+    
+    nav ul li a::after{
+        content: '';
+        width: 0;
+        height: 3px;
+        background: #000000;
+        position: absolute;
+        left: 0;
+        bottom: -6px;
+        transition: 0.5s;
 
     }
     nav ul .fa-solid{
