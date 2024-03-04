@@ -34,6 +34,20 @@ body{
 }
 
 
+@keyframes pulse {
+    0% {
+        transform: scale(1);
+       
+    }
+    50% {
+        transform: scale(1.1);
+        
+    }
+    100% {
+        transform: scale(1);
+      
+    }
+}
 
 
 #header{
@@ -411,28 +425,11 @@ form .btn2{
 }
 .copyright i{
     color: #ff004f;
-}
-
-@keyframes pulse {
-    0% {
-        transform: scale(1);
-       
-    }
-    50% {
-        transform: scale(1.1);
-        
-    }
-    100% {
-        transform: scale(1);
-      
-    }
-}
-
-.copyright i:hover{
-    color: #ff004f;
-  
     animation: pulse 0.5s infinite;
 }
+
+
+
 
 #msg{
     color: #61b752;
