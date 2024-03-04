@@ -392,6 +392,10 @@ nav ul li a:hover::after{
     display: inline-block;
     background: #ff004f;
 }
+.btn.btn.btn2:hover{
+    transform: scale(1.1);
+    transition: 0,5s;
+}
 .contact-right form{
     width: 100%;
 
